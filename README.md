@@ -7,6 +7,8 @@
 >> Por meio deste projeto é possível realizar um CRUD completo: CREATE, READ, UPDATE e DELETE. <br/>
 >> Para realizar as requisições foi utilizado o POSTMAN.
 
+>> Atualização: Documentação com Swagger
+
 
 ## Código para criação do BD, Tabela e Inserts (SQL Server)
 
@@ -66,22 +68,31 @@ GO
 
 ## Resultado obtido
 
-### Método GET - https://localhost:7154/api/projetos
+### Documentação Swagger
+
+>> Para realizar requisições com o Swagger uilizar a rota: <a href="https://localhost:7154/swagger/index.html" target="_blank">https://localhost:7154/swagger/index.html</a>
+
+![Documentação com Swagger](screenshots/swagger.png)
+
+
+### Requisições via Postman
+
+#### Método GET - https://localhost:7154/api/projetos
 >> Lista todos os registros
 ![GetAll - Lista todos os registros](screenshots/GetAll.jpg)
 
-### Método POST - https://localhost:7154/api/projetos
+#### Método POST - https://localhost:7154/api/projetos
 >> Realiza cadastro
 ![Post - Cadastra](screenshots/Post.jpg)
 
-### Método GET - https://localhost:7154/api/projetos/id
+#### Método GET - https://localhost:7154/api/projetos/id
 >> Exibe um registro
 ![GetOne - Pega um registro](screenshots/GetOne.jpg)
 
-### Método PUT - https://localhost:7154/api/projetos/id
+#### Método PUT - https://localhost:7154/api/projetos/id
 >> Atualiza um registro
 ![Put - Atualiza registro](screenshots/Put.jpg)
 
-### Método DELETE - https://localhost:7154/api/projetos/id
+#### Método DELETE - https://localhost:7154/api/projetos/id
 >> Exclui um registro
 ![Delete - Exclui um registro](screenshots/Delete.jpg)
